@@ -1,59 +1,80 @@
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+​
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    ​
     <title>Viaje devuelto</title>
+    ​
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f2f4ff;
+        color: #11194c;
+        line-height: 25px;
+      }
+      h2,
+      h3,
+      h4 {
+        font-weight: 400;
+      }
+      table {
+        width: 600px;
+        background-color: white;
+        box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.05);
+      }
+      .header {
+        background-color: white;
+      }
+      ​ .information {
+        background-color: #f2f4ff;
+      }
+      ​ .information .text {
+        width: 400px;
+      }
+      .footer {
+        background-color: #11194c;
+        text-align: center;
+        font-size: small;
+        padding: 0px;
+      }
+    </style>
   </head>
+  ​
   <body>
-    <div style="height: 100%">
-      <div
-        style="padding-top: 5%; padding-left: 5%; text-align: left"
-        class="logo"
-      >
-        <img
-          width="200"
-          style="background-color: rgba(0, 0, 0, 0)"
-          src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/logo.png"
-          alt="logo"
-        />
-      </div>
-      <div
-        style="
-          padding-left: 5%;
-          padding-right: 5%;
-          padding-top: 5%;
-          display: flex;
-          flex-wrap: wrap;
-          font-family: 'Helvetica';
-        "
-      >
-        <div style="text-align: left">
-          <h1
-            style="
-              font-style: normal;
-              font-weight: 500;
-              font-size: 72px;
-              line-height: 75px;
-              color: #11194c;
-            "
-          >
-            Viaje devuelto
-          </h1>
+    <table align="center" border="0" cellpadding="20" cellspacing="0">
+      <tr>
+        <td class="header" colspan="4">
+          <img
+            src="https://res.cloudinary.com/pilyclix/image/upload/v1619709546/logo_elmppa.png"
+          />
+        </td>
+      </tr>
+      ​
+      <tr rowspan="2">
+        <td colspan="2">
+          <img
+            width="250"
+            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/planeta.png"
+            alt="planet"
+          />
+        </td>
+        <td colspan="2">
+          <h2>Su viaje ha sido devuelto</h2>
           <p style="color: #11194c">
             Estimados, se informa que el viaje <strong>{travel}</strong>
             han sido devuelto.
           </p>
-          <br />
-        </div>
-        <div style="max-width: 30%">
-          <img
-            width="600"
-            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/planeta.png"
-            alt="planet"
-          />
-        </div>
-      </div>
-    </div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4" class="footer">
+          <p style="color: white">
+            +56 232 108 243 | info@simplus.cl | simplus.cl
+          </p>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
