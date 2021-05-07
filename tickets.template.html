@@ -4,7 +4,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     ​
-    <title>Bienvenido a Simple Plus</title>
+    <title>Ticket de viaje</title>
     ​
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
@@ -46,45 +46,59 @@
       <tr>
         <td class="header" colspan="4">
           <img
-            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/simplus-azul.png"
-          />
-        </td>
-      </tr>
-      ​
-      <tr>
-        <td colspan="2">
-          <img
-            width="250"
-            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/ilustracion.png"
-          />
-        </td>
-        <td colspan="2">
-          <h2>¡Gracias por viajar con nosotros!</h2>
-          <p style="color: #11194c">
-            Estimado pasajero, ya puedes descargar los boletos para tu viaje:
-          </p>
-          <br />
-          <p style="color: #11194c">
-            <b>{departureCity} - {destinationCity}</b>
-          </p>
-          <p style="color: #11194c"><b>{departureDate} - {arrivesDate}</b></p>
-          <p style="color: #11194c"><b>Operado por: {operatorName}</b></p>
-          <p style="color: #11194c"><b>N° Ticket: {ticketId}</b></p>
-          <br />
-          <p style="color: #11194c">
-            Esperamos que tu experiencia sea buena y agradecemos tu confianza.
-          </p>
+            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/simplus-azul.png" />
         </td>
       </tr>
 
       <tr>
-        <td colspan="4" class="footer">
-          <p style="color: white; text-decoration: none">contacto.simplus@simplus.cl</p>
+        <td colspan="2">
           <img
-            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/simplus-blanco.png"
-          />
+            width="200"
+            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/ilustracion.png"/>
+        </td>
+        <td colspan="2">
+          <h2>¡Gracias por viajar con nosotros!</h2>
+          <p> Estimado pasajero, ya puedes descargar los boletos para tu viaje:</p>
         </td>
       </tr>
+      <td colspan="2">N° Ticket: </br> {ticketId}</td>
+      <td>
+        <p>Operado por: {operatorName} <img width="100"
+            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/Logo-Turbus_Verde.png"/>
+        </p>
+      </td>
+      <tbody>
+        <tr>
+          <td>
+            <p>{departureCity} - {destinationCity}</p>           
+          </td>
+          <td> <p>{departureDate} - {arrivesDate}</p></td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <p> <img width="20"
+            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/manos.png"
+          /> Recuerda lavar tus manos</p>
+         <p> <img width="20"
+            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/mascarilla.png"
+          />Recuerda usar tu mascarilla durante todo el viaje</p>
+          
+          <p><img width="20"
+            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/temperatura.png"
+          />Para poder viajar tu temperatura no debe ser mayor a 37º</p>
+        </td>
+        </tr>
+        <tr class="footer">
+          <td colspan="2">
+            <p style="color: white; text-decoration: none">
+              contacto.simplus@simplus.cl</p>
+          </td>
+          <td colspan="2">
+            <img
+              src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/simplus-blanco.png"/>
+          </td>
+        </tr> 
+      </tbody>
     </table>
   </body>
 </html>
