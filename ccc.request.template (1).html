@@ -4,7 +4,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     ​
-    <title>Su viaje a sido devuelto</title>
+    <title>Nueva solicitud de Crédito</title>
     ​
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
@@ -36,8 +36,7 @@
       .footer {
         background-color: #11194c;
         text-align: center;
-        font-size: small;
-        padding: 0px;
+        color: white;
       }
     </style>
   </head>
@@ -52,25 +51,41 @@
         </td>
       </tr>
       ​
-      <tr rowspan="2">
+      <tr>
         <td colspan="2">
-          <img
-            width="250"
-            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/planeta.png"
-            alt="planet"
-          />
-        </td>
-        <td colspan="2">
-          <h2>Su viaje ha sido devuelto</h2>
-          <p style="color: #11194c">
-            Estimados, se informa que los tickets <strong>{tickets}</strong> del
-            viaje <strong>{travel}</strong> han sido devueltos.
-          </p>
+          <h2>Nueva solicitud de Crédito</h2>
+          <h4>Hemos recibido tu solicitud de Crédito en Simplus. Estaremos revisando tu solicitud dentro de las próximas horas.</h4>
+          <h3>Datos de usuario</h3>
+          <div style="color: #11194c; text-align: left; font-size: 13px">
+            <dl>
+              <dt>Nombre: <strong>{userFullName}</strong></dt>
+              <dt>Fono: <strong>{userPhone}</strong></dt>
+              <dt>Correo: <strong>{userEmail}</strong></dt>
+            </dl>
+
+            <h3>Datos de Empresa</h3>
+            <dl>
+              <dt>Empresa: <strong>{name}</strong></dt>
+              <dt>Rut: <strong>{rut}</strong></dt>
+              <dt>Giro: <strong>{commercialActivity}</strong></dt>
+              <dt>Rubro: <strong>{businessArea}</strong></dt>
+              <dt>País: <strong>{country}</strong></dt>
+              <dt>Región: <strong>{city}</strong></dt>
+              <dt>Comuna: <strong>{commune}</strong></dt>
+              <dt>Calle: <strong>{street}</strong></dt>
+              <dt>Número: <strong>{streetNumber}</strong></dt>
+              <dt>Pasajeros estimados a transportar: <strong>{estimatedPassengers}</strong></dt>
+              <dt>Compras estimadas mensuales: <strong>{estimatedAmount}</strong></dt>
+            </dl>
+          </div>
+          <br />
         </td>
       </tr>
+
       <tr>
+        <
         <td colspan="4" class="footer">
-          <p>contacto.simplus@simplus.cl</p>
+          <p style="color: white; text-decoration: none">contacto.simplus@simplus.cl</p>
           <img
             src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/simplus-blanco.png"
           />

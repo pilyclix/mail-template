@@ -4,7 +4,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     ​
-    <title>Nueva solicitud de Crédito</title>
+    <title>Verifica tu correo</title>
     ​
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
@@ -53,52 +53,55 @@
       ​
       <tr>
         <td colspan="2">
-          <h2>Nueva solicitud de Crédito</h2>
-          <h3>Datos de usuario</h3>
-          <div style="color: #11194c; text-align: left; font-size: 13px">
-            <dl>
-              <dt>Nombre:</dt>
-              <dd><strong>{userFullName}</strong></dd>
-              <dt>Fono:</dt>
-              <dd><strong>{userPhone}</strong></dd>
-              <dt>Correo:</dt>
-              <dd><strong>{userEmail}</strong></dd>
-            </dl>
-
-            <h3>Datos de Empresa</h3>
-            <dl>
-              <dt>Empresa:</dt>
-              <dd><strong>{name}</strong></dd>
-              <dt>Rut:</dt>
-              <dd><strong>{rut}</strong></dd>
-              <dt>Giro:</dt>
-              <dd><strong>{commercialActivity}</strong></dd>
-              <dt>Rubro:</dt>
-              <dd><strong>{businessArea}</strong></dd>
-              <dt>País:</dt>
-              <dd><strong>{country}</strong></dd>
-              <dt>Región:</dt>
-              <dd><strong>{city}</strong></dd>
-              <dt>Comuna:</dt>
-              <dd><strong>{commune}</strong></dd>
-              <dt>Calle:</dt>
-              <dd><strong>{street}</strong></dd>
-              <dt>Número:</dt>
-              <dd><strong>{streetNumber}</strong></dd>
-              <dt>Pasajeros estimados a transportar:</dt>
-              <dd><strong>{estimatedPassengers}</strong></dd>
-              <dt>Compras estimadas mensuales:</dt>
-              <dd><strong>{estimatedAmount}</strong></dd>
-            </dl>
+          <img
+            width="250"
+            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/verificacorreo.png"
+            alt="verifyEmail"
+          />
+        </td>
+        <td colspan="2">
+          <h2>Verifica tu correo y ... ¡listo!</h2>
+          <p style="color: #11194c; text-align: left">Hola, {fullName}.</p>
+          <p>
+            Tu empresa <b>{company}</b> (RUT {rut}) ha sido registrada.<br />
+            Haz click en el botón para verificar tu dirección de correo y tu
+            cuenta de Simplus estará lista. ¡Esperamos verte pronto!
+          </p>
+          <p>¡Esperamos verte pronto!</p>
+          <div
+            style="
+              height: 35px;
+              width: 170px;
+              color: white;
+              background-color: #3149dd;
+              border: none;
+              border-radius: 5px;
+              text-align: center;
+            "
+          >
+            <div style="height: 5px"></div>
+            <a
+              href="{link}"
+              style="
+                height: 35px;
+                width: 170px;
+                color: white;
+                background-color: #3149dd;
+                border: none;
+                border-radius: 5px;
+                text-align: center;
+                text-decoration: none;
+              "
+            >
+              Verificar Correo
+            </a>
           </div>
-          <br />
         </td>
       </tr>
 
       <tr>
-        <
         <td colspan="4" class="footer">
-          <p>contacto.simplus@simplus.cl</p>
+          <p style="color: white; text-decoration: none">contacto.simplus@simplus.cl</p>
           <img
             src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/simplus-blanco.png"
           />

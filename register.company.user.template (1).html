@@ -4,7 +4,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     ​
-    <title>Bienvenido a Simple Plus</title>
+    <title>Verifica tu correo</title>
     ​
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
@@ -36,6 +36,7 @@
       .footer {
         background-color: #11194c;
         text-align: center;
+        color: white;
       }
     </style>
   </head>
@@ -54,31 +55,53 @@
         <td colspan="2">
           <img
             width="250"
-            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/ilustracion.png"
+            src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/verificacorreo.png"
+            alt="verifyEmail"
           />
         </td>
         <td colspan="2">
-          <h2>¡Gracias por viajar con nosotros!</h2>
-          <p style="color: #11194c">
-            Estimado pasajero, ya puedes descargar los boletos para tu viaje:
+          <h2>Verifica tu correo y ... ¡listo!</h2>
+          <p style="color: #11194c; text-align: left">Hola, {fullName}.</p>
+          <p>
+            Te han asignado a la empresa <b>{company}</b> (RUT {rut}). <br />
+            Haz click en el botón para verificar tu dirección de correo y tu
+            cuenta de Simplus estará lista. ¡Esperamos verte pronto!
           </p>
-          <br />
-          <p style="color: #11194c">
-            <b>{departureCity} - {destinationCity}</b>
-          </p>
-          <p style="color: #11194c"><b>{departureDate} - {arrivesDate}</b></p>
-          <p style="color: #11194c"><b>Operado por: {operatorName}</b></p>
-          <p style="color: #11194c"><b>N° Ticket: {ticketId}</b></p>
-          <br />
-          <p style="color: #11194c">
-            Esperamos que tu experiencia sea buena y agradecemos tu confianza.
-          </p>
+          <p>¡Esperamos verte pronto!</p>
+          <div
+            style="
+              height: 35px;
+              width: 170px;
+              color: white;
+              background-color: #3149dd;
+              border: none;
+              border-radius: 5px;
+              text-align: center;
+            "
+          >
+            <div style="height: 5px"></div>
+            <a
+              href="{link}"
+              style="
+                height: 35px;
+                width: 170px;
+                color: white;
+                background-color: #3149dd;
+                border: none;
+                border-radius: 5px;
+                text-align: center;
+                text-decoration: none;
+              "
+            >
+              Verificar Correo
+            </a>
+          </div>
         </td>
       </tr>
 
       <tr>
         <td colspan="4" class="footer">
-          <p>contacto.simplus@simplus.cl</p>
+          <p style="color: white; text-decoration: none">contacto.simplus@simplus.cl</p>
           <img
             src="https://turbus-desa.egt.cl/webcontent/a35a5aad-a6c6-42ba-b539-d3aa90e8c4d3/images/simplus-blanco.png"
           />
